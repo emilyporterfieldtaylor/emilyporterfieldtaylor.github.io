@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #777777;
+    background-image: url("memphis-colorful.png");
+  }
+  
+header {
+    background-color: #ffffff;
+    color: #777777;
+    border: solid 1px;
+  }
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+  }
+  
+h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #777777;
+    text-align: center;
+    background: #ffffff;
+  }
+  
+h2 {
+    font-size: 24px;
+    color: #4aaaa5;
+  }
+  
+/*nav {
+    border: none;
+    color: #777777;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffffff;
+}*/
+
+ul {
+    list-style-type: none;
+    color: #777777;
+
+}
+
+#button3 {
+    float: right;
+    background-color: none;
+    text-decoration: none;
+    margin-bottom:2px;
+    
+}
+
+#button2 {
+    float: right;
+    background-color: none;
+    text-decoration: none;
+    
+}
+
+#button1 {
+    float: right;
+    background-color: none;
+    text-decoration: none;
+    
+}
+#scratch{
+    width: 100px;
+    height: 100px;
+}
+
+#bio-photo {
+    width: 250px;
+    height: 200px;
+    transform: rotate(90deg);
+}
