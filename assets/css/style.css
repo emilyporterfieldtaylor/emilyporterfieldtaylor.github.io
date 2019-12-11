@@ -1,83 +1,112 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #777777;
-    background-image: url("memphis-colorful.png");
-  }
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #777777;
+  background-image: url("memphis-colorful.png");
+}
   
 header {
-    background-color: #ffffff;
-    color: #777777;
-    border: solid 1px;
-  }
+  background-color: #ffffff;
+  color: #777777;
+  border: solid 1px;
+}
 
 #name {
-    background-color: #4aaaa5;
-    color: #ffffff;
-  }
-  
-h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #777777;
-    text-align: center;
-    background: #ffffff;
-  }
-  
-h2 {
-    font-size: 24px;
-    color: #4aaaa5;
-  }
-  
-/*nav {
-    border: none;
-    color: #777777;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    background-color: #ffffff;
-}*/
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
+.link {
+  color:#777777
+}
 
 ul {
-    list-style-type: none;
-    color: #777777;
+  list-style-type: none;
+  color: #777777;
 
 }
 
 #button3 {
-    float: right;
-    background-color: none;
-    text-decoration: none;
-    margin-bottom:2px;
-    
+  float: right;
+  background-color: none;
+  text-decoration: none;
+  margin-bottom:2px;
+  color: #777777;  
+}
+
+#button3:hover {
+  color: black;
 }
 
 #button2 {
-    float: right;
-    background-color: none;
-    text-decoration: none;
-    
+  float: right;
+  background-color: none;
+  text-decoration: none;
+  color: #777777;  
+}
+
+#button2:hover {
+  color: black;
 }
 
 #button1 {
-    float: right;
-    background-color: none;
-    text-decoration: none;
-    
+  float: right;
+  background-color: none;
+  text-decoration: none;
+  color: #777777;  
 }
+
+#button1:hover {
+  color: black;
+}
+  
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #777777;
+  text-align: center;
+  background: #ffffff;
+  }
+
+#maincontent {
+  background-color: #ffffff;
+  position: relative; 
+  left: 30px; 
+  top: 70px; 
+  width: 960px; 
+} 
+
+h2 {
+  font-size: 24px;
+  color: #4aaaa5;
+  }
+
 #scratch{
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 #bio-photo {
-    width: 250px;
-    height: 200px;
-    transform: rotate(90deg);
+  width: 250px;
+  height: 200px;
+  padding: 20px 10px 30px 10px;
+  transform: rotate(90deg);
+  float: left;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #777777;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 8px;
 }
