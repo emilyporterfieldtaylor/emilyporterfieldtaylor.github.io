@@ -12,6 +12,7 @@ header {
   background-color: #ffffff;
   color: #777777;
   border: solid 1px;
+  padding: 30px;
 }
 
 #name {
@@ -26,54 +27,39 @@ header {
 ul {
   list-style-type: none;
   color: #777777;
-
 }
 
-#button3 {
+li {
   float: right;
+}
+
+#button {
   background-color: none;
   text-decoration: none;
   margin-bottom:2px;
-  color: #777777;  
+  color: #777777;
+  padding: 5px;  
 }
 
-#button3:hover {
-  color: black;
-}
-
-#button2 {
-  float: right;
-  background-color: none;
-  text-decoration: none;
-  color: #777777;  
-}
-
-#button2:hover {
-  color: black;
-}
-
-#button1 {
-  float: right;
-  background-color: none;
-  text-decoration: none;
-  color: #777777;  
-}
-
-#button1:hover {
+#button:hover {
   color: black;
 }
   
 h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #777777;
+  padding: 20px;
+  font-size: 20px;
+  color: #ffffff;
   text-align: center;
-  background: #ffffff;
+  background: #4aaaa5;
+  width: 15%;
+  margin-bottom: -20px;
+  position: fixed;
+  left: 10%;
+  top: 0;
   }
 
 #maincontent {
+  margin: 20px 200px 20px 200px;
   background-color: #ffffff;
   position: relative; 
   left: 30px; 
@@ -82,8 +68,13 @@ h1 {
 } 
 
 h2 {
+  padding: 30px 0px 30px 10px;
+  margin: margin: 20px 200px 20px 200px;
   font-size: 24px;
   color: #4aaaa5;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #777777;
   }
 
 #scratch{
@@ -99,6 +90,10 @@ h2 {
   float: left;
 }
 
+form {
+  padding: 20px;
+}
+
 footer {
   position: fixed;
   left: 0;
@@ -107,6 +102,9 @@ footer {
   background-color: #777777;
   color: white;
   text-align: center;
-  padding-top: 10px;
-  font-size: 8px;
+  padding-top: 20px;
+  font-size: 10px;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #4aaaa5;
 }
