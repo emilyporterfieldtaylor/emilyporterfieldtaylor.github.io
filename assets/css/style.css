@@ -33,6 +33,18 @@ li {
   float: right;
 }
 
+li:nth-child(3) {
+  border-right-style: solid;
+  border-right-color: #777777;
+  border-right-width: 1px;
+}
+
+li:nth-child(2) {
+  border-right-style: solid;
+  border-right-color: #777777;
+  border-right-width: 1px;
+}
+
 #button {
   background-color: none;
   text-decoration: none;
