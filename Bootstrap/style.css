@@ -10,16 +10,52 @@ body {
 
 header {
     background-color: #ffffff;
+    border-bottom: solid 1px #777777;
 }
 
 h3 {
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;
+    height: 100%;
 }
 
 .nav-wrapper {
-    padding: 20px;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #777777;
+}
+
+li
+{
+  border-right: 1px #777777 solid;
+}
+li:last-child
+{
+  border-right: none;
+}
+
+.box {
+    padding:10px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border: solid 1px #777777;
+}
+
+.section-title {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    text-align: left;
+    padding-left: 0;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
 }
