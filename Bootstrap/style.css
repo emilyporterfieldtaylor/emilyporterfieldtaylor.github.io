@@ -43,7 +43,9 @@ li:last-child
     padding:10px;
     background-color: #ffffff;
     margin-top: 30px;
-    border: solid 1px #777777;
+    border: solid 1px lightgray;
+    color: #777777
+    
 }
 
 .section-title {
@@ -58,4 +60,21 @@ li:last-child
     height: 200px;
     float: left;
     margin: 0 10px 10px 0;
+}
+
+.body {
+    margin-bottom: 80px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #777777;
+    color: #ffffff;
+    border-top: solid 5px #4aaaa5;
+    font-size: 12px;
 }
