@@ -1,83 +1,143 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
 
-    <title>Student Bio | Portfolio</title>
+  <title>Student Bio | Portfolio</title>
 
-    <link rel="icon" href="http://mathworld.wolfram.com/images/eps-gif/DodecahedronIcosahedron_700.gif">
+  <link rel="icon" href="http://mathworld.wolfram.com/images/eps-gif/DodecahedronIcosahedron_700.gif">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <style>
+    @media screen and (min-width:768px) {
+      .nav-wrapper {
+        justify-content: flex-end;
+      }
+    }
+
+    @media screen and (max-width:768px) {
+      .nav-wrapper {
+        justify-content: center;
+      }
+    }
+  </style>
 
 </head>
 
-
 <body>
-
-    <header>
-
-        <h1>Emily Taylor</h1>
-
-        <ul>
-
-            <li><a href="portfolio.html" id="button">Portfolio</a></li>
-
-            <li><a href="contact.html" id="button">Contact</a></li>
-
-            <li><a href="index.html" id="button">About</a></li>
-
-        </ul>
-
-    </header>
-
-
-    <div id="maincontent">
-
-        <h2>Portfolio</h2>
-
-        <div class="linkWrapper">
-            <a class="imageholder" href="https://scratch.mit.edu/projects/346538034/" target="_blank">
-                <img class="image" src="assets/images/thegameofcatandmousepromo.png" alt="A Game of Cat and Mouse">
-                <div class="caption">A Game of Cat and Mouse</div>
-            </a>
-
-            <div class="imageholder">
-                <img class="image"
-                    src="https://images.pexels.com/photos/164745/pexels-photo-164745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                <div class="caption">DJ Set</div>
-            </div>
-
-            <div class="imageholder">
-                <img class="image"
-                    src="https://images.pexels.com/photos/6803/light-rocks-pot-white.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                <div class="caption">Botany Web Template</div>
-            </div>
-
-            <div class="imageholder">
-                <img class="image"
-                    src="https://images.pexels.com/photos/735853/pexels-photo-735853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                <div class="caption">Girl Loves Phone</div>
-            </div>
-
-            <div class="imageholder">
-                <img class="image"
-                    src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-                <div class="caption">Erganomic Hipster</div>
-            </div>
-
-            <div class="imageholder">
-                <img class="image"
-                    src="https://images.pexels.com/photos/672657/pexels-photo-672657.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-                <div class="caption">Coffee Blanket</div>
-            </div>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-3">
+          <h3>Emily Taylor</h3>
         </div>
-
+        <div class="col-md-8 col-lg-9">
+          <nav>
+            <ul class="nav nav-wrapper">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
+  </header>
 
-    <footer>
-        Copyright ©
-    </footer>
+  <div class="container body">
+    <div class="row">
+      <div class="col-md-12 col-lg-8">
+        <div class="box">
+          <h3 class="section-title">Portfolio</h3>
+          <hr>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="card">
+                <img src="images/thegameofcatandmousepromo.png" class="card-img" alt="My Game">
+                <div class="card-overlay">
+                  <p class="card-text">My Game</p>
+                </div>
+                <a href="https://scratch.mit.edu/projects/346538034/" class="stretched-link"></a>
+              </div>
+            </div>
+            <div class="col-md-6">
 
+              <div class="card">
+                <img
+                  src="images/dj.jpeg"
+                  class="card-img" alt="DJ Set">
+                <div class="card-overlay">
+                  <p class="card-text">DJ Set</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+
+              <div class="card">
+                <img
+                  src="images/light-rocks-pot-white.jpg"
+                  class="card-img" alt="Botany Web Template">
+                <div class="card-overlay">
+                  <p class="card-text">Botany Web Template</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+
+              <div class="card">
+                <img
+                  src="images/girlphone.jpeg"
+                class="card-img" alt="Girl Loves Phone">
+                <div class="card-overlay">
+                  <p class="card-text">Girl Loves Phone</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <img
+                  src="images/laptop.jpeg"
+                  class="card-img" alt="Ergonomic Hipster">
+                <div class="card-overlay">
+                  <p class="card-text">Ergonomic Hipster</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <img
+                  src="images/coffee.jpeg"
+                  class="card-img" alt="My Game">
+                <div class="card-overlay">
+                  <p class="card-text">Coffee Blanket</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      &copy;Copyright
+    </div>
+  </footer>
 </body>
 
 </html>
