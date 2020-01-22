@@ -1,133 +1,104 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
-body,
-.wrapper {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
-}
-
-.wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #777777;
+    background-image: url("images/memphis-colorful.png");
 }
 
 header {
-  text-align: center;
-  padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+    background-color: #ffffff;
+    border-bottom: solid 1px #777777;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    height: 100%;
+}
+
+.nav-wrapper {
+    padding: 10px;
+}
+
+.nav-link {
+    color: #777777;
+}
+
+li
+{
+  border-right: 1px #777777 solid;
+}
+li:last-child
+{
+  border-right: none;
+}
+
+.box {
+    padding:10px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border: solid 1px lightgray;
+    color: #777777
+    
+}
+
+.section-title {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    text-align: left;
+    padding-left: 0;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.body {
+    margin-bottom: 80px;
+}
+
+.btn.btn-primary, .btn.btn-primary:hover, .btn.btn-primary:active {
+    background-color: #4aaaa5 !important;
+    border: 1px solid #4aaaa5 !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #777777;
+    color: #ffffff;
+    border-top: solid 5px #4aaaa5;
+    font-size: 12px;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
-  font-size: 18px;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 30px 40px;
+    margin-bottom: 30px;
 }
 
-.card-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
+.card-text {
+    color: #ffffff;
 }
 
-.card-body {
-  min-height: 100px;
-}
-
-.card-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
-
-.card-footer::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-.btn {
-  border: none;
-  background-color: hsl(360, 91%, 36%);
-  border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
-  color: hsl(0, 0%, 100%);
-  display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
-  text-align: center;
-  cursor: pointer;
-}
-
-button[disabled] {
-  cursor: default;
-  background: #c0c7cf;
-}
-
-.float-right {
-  float: right;
-}
-
-#password {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  display: block;
-  width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
-  resize: none;
-  overflow: hidden;
-}
-
-@media (max-width: 690px) {
-  .btn {
-    font-size: 1rem;
-    margin: 16px 0px 0px 0px;
-    padding: 10px 15px;
-  }
-
-  #password {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .btn {
-    font-size: 0.8rem;
-  }
+.card-overlay {
+    background-color: cadetblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1em 0;
+    margin: 0 0 1em 0;
+    text-align: center;
 }

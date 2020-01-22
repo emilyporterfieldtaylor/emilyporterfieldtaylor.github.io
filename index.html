@@ -1,34 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Student Bio | About</title>
+
+  <link rel="icon" href="http://mathworld.wolfram.com/images/eps-gif/DodecahedronIcosahedron_700.gif">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <style>
+    @media screen and (min-width:768px) {
+      .nav-wrapper {
+        justify-content: flex-end;
+      }
+    }
+
+    @media screen and (max-width:768px) {
+      .nav-wrapper {
+        justify-content: center;
+      }
+      h3 {
+        justify-content: center;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-3">
+          <h3>Emily Taylor</h3>
         </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+        <div class="col-md-8 col-lg-9">
+          <nav>
+            <ul class="nav nav-wrapper">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </header>
+
+  <div class="container body">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="box">
+          <h3 class="section-title">About Me</h3>
+          <hr>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="profile-pic" src="images/japanSquare.jpg" alt="Pic of Me in Japan">
+              <p>Starting with "My Name is Emily" feels way to cliche and boring. I could rip somebody else's intro and
+                pull a "Hey! E Sauce here!" but I really don't like that either. I guess I'll leave this grumbling as my
+                intro. I'm just a lady trying to further her education since I'm not doing a damn thing with my
+                Psycology degree. I've worked in IT adjacent jobs or the past few years and I'm ready to actually do some
+                real deep level shit.</p>
+              <p>I recently moved to Austin but I've lived in the Austin area for the past 8 years. I have two kitties,
+                Calcifer and Sofie, named after characters from one of my favorite movies, Howl's Moving Castle. I try to
+                spend as much time outside as my laziness will allow. I like to hunt for mushrooms or nice little shady
+                spots to read and draw. I also really enjoy playing D&D and video games. Okay, well this has been very
+                uncomfortable for me but I really enjoyed this prodject and I'm super excited to start learning
+                frameworks!</p>
+              <p>Cheers!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer class="footer">
+  <div class="container">
+    &copy;Copyright
+  </div>
+</footer>
+</body>
+
+
+
 </html>

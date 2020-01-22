@@ -1,22 +1,21 @@
-# password_generator
+# Portfolio Project
 
-This is a simple password generator.  You choose a password length and then prompts you to choose the character types to create a randomized password.
+## Recreating my Portfolio using Bootstrap
 
-## Instructions
-1. Select your password length. 
-2. Run through the prompt to select whether you would like capital letter, lowercase letters, numbers or special characters in your password.
-3. Click the generate password button.
+This project was to take our current portfolio, made with HTML and CSS, and recreate it using bootstrap. It was easier than writing the pure css and html but I found some difficulting in overwriting the bootstrap css. This was a fun project and I definitley learn a lot from it. 
 
-## Authors
 
-* **Emily Taylor** - *Initial work* - [emilyporterfieldtaylor](https://github.com/emilyporterfieldtaylor)
+## Usage 
+
+Please use with caution. She's delicate. 
+
+
+## Credits
+
+I would like to give credit to my roommate Tyler, who painstakingly looked over my terrible code and gently guided me to a completed project.
+
 
 ## License
 
-This project is licensed under the MIT License 
+CCO V1
 
-## Acknowledgments
-
-* Tyler Wood - my helpful roommate
-* Leandra - for letting me bounce ideas of her
-* George - for giving me encouragement when all I had completed was my variables
