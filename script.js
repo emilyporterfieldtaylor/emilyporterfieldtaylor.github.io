@@ -1,8 +1,7 @@
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  
-  $(".btn-floating").click(function(){
-    alert();
-    $('.sidenav').open();
+$(document).ready(function () {
+  $('.sidenav').sidenav();
+
+  $(".btn-floating").click(function () {
+    $('.sidenav').sidenav('open');
   })
 });
