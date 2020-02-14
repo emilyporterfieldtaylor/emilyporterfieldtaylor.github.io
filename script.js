@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $('.sidenav').sidenav();
 
-  $(".btn-floating").click(function () {
+  $(".pulse").click(function () {
     $('.sidenav').sidenav('open');
   })
 });
