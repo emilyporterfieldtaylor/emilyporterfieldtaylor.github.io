@@ -4,4 +4,8 @@ $(document).ready(function () {
   $(".pulse").click(function () {
     $('.sidenav').sidenav('open');
   })
+
+  $("#submit").click(function (){
+    alert("This feature is not currently available.");
+  })
 });
