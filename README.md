@@ -1,21 +1,33 @@
 # Portfolio Project
 
-## Recreating my Portfolio using Bootstrap
+## Recreating my Portfolio using Materialize and Javascript
 
-This project was to take our current portfolio, made with HTML and CSS, and recreate it using bootstrap. It was easier than writing the pure css and html but I found some difficulting in overwriting the bootstrap css. This was a fun project and I definitley learn a lot from it. 
+Throughout the UT coding bootcamp, we are updating our portfolios to show off new technologies we have learn. In this iteration of my portfolio, I have included javascript and the Materialize framework. There isn't too much javascript but there is quite a bit of Materialize. It was a fun framework to work with and I plan on getting more familiar with it in the future.
+
+## Original Portfolio Link
+
+https://emilyporterfieldtaylor.github.io/original_bootstrap_portfolio/
 
 
-## Usage 
+## Accomplishments
 
-Please use with caution. She's delicate. 
+The thing I'm most proud of this my new sidenav. It was the first thing I worked on using Materialize and it took me quit a while to get it working. I'm very proud of it :)
+
+![alt text](images/newnav.png "New Nav")
+
+Original Nav: ![alt text](images/originalNav.png "Old Nav")
+
+
+
+
 
 
 ## Credits
 
-I would like to give credit to my roommate Tyler, who painstakingly looked over my terrible code and gently guided me to a completed project.
+I would like to give credit to my cat Calcifer who let me use his photo in my side nav. He's the cutest
 
 
 ## License
 
-CCO V1
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
